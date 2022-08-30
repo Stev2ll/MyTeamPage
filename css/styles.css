@@ -22,11 +22,12 @@
     font-size: 44px;
     letter-spacing: -3px;
 }
-.header-second{
+.header-second h3{
     position: absolute;
     top: 110px;
     left: 736px;
     font-family: 'Poppins', sans-serif;
+    width: 300px;
 }
 .header-info{
     position: absolute;
