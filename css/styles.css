@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
+    outline: none;
+}
+.header-main{
+    position: absolute;
+    top: 110px;
+    left: 223px;
+}
+.header-main h1{
+    font-family: 'PT Serif Caption', serif;
+    font-size: 44px;
+    letter-spacing: -3px;
+}
+.header-second{
+    position: absolute;
+    top: 110px;
+    left: 736px;
+    font-family: 'Poppins', sans-serif;
+}
+.header-info{
+    position: absolute;
+    top: 147px;
+    left: 736px;
+    width: 330px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.contenedor-team{
+    margin-top: 300px;
+    margin-left: 100px;
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.member{
+    display: flex;
+}
+.contenedor-team img{
+    width: 250px;
+    padding-left: 58px;
+}
+.contenedor-team figcaption{
+    padding-left: 58px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+}
+.member-title{
+    float: left;
+    top:330px;
+    padding-left: 10px;
+    font-size: 12px;
+    font-family: 'PT Serif Caption', serif;
+    writing-mode: vertical-lr;
+    text-transform: uppercase;
+    
+}
+.member.medio{
+    position: relative;
+    width: 310.21px;
+    padding-bottom: 100px;
+    top: 100px;
+}
+.footer-autor{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+@media screen and (max-width: 400px) {
+
+    .header-main {
+        top: 71px;
+        left: 18px;
+        width: 300px;
+        font-size: 36px;
+        display: block;
+    }
+    .header-second{
+        top: 156px;
+        left: 18px;
+        width: 300px;
+        font-size: 18px;
+    }
+    .header-info{
+        top: 193px;
+        left: 18px;
+    }
+    .contenedor-team{
+        position: relative;
+        display: inline;
+        width: 700px;
+        left: 18px;
+        top: 265px;
+    }
+    .member{
+        position: relative;
+        display: flex;
+    }
+    .member-content{
+        width: 150px;   
+    }
+    .contenedor-team img{
+        width: 150px;
+        padding-left: 0px;
+    }
+    .contenedor-team figcaption{
+        width: 200px;
+        padding-left: 0px;
+        font-size: 12px;
+    }
+    .member.medio{
+        position: relative;
+        top: -200px;
+        left: 200px;
+        height: 0px;
+    }
+    .member.member2{
+        position: relative;
+        top: -200px;
+        left: 200px;
+        height: 0px;
+    }
+    .member.member2.medio{
+        position: relative;
+        display: inline-flex;
+        top: 50px;
+        left: 0px;
+        margin-bottom: 200px;
+    }
+    .footer-autor{
+        position: relative;
+        top: 400px;
+    }
+
+
+    
+    
+
+}
+
