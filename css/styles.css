@@ -84,7 +84,7 @@
     line-height: 17px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 375px) {
 
     .header-main {
         top: 71px;
